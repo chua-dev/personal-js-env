@@ -16,4 +16,6 @@ function showPosition(position) {
   the_long = position.coords.longitude;
   document.getElementById("first").innerHTML = the_lat
   document.getElementById("second").innerHTML = the_long
+  console.log(typeof the_lat)
+  console.log(typeof the_long)
 }
